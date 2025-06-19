@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nome": "Carlos Silva",
+    "profissao": "Engenheiro",
+    "vigilancia": "Alta",
+    "lat": -8.83,
+    "lng": 13.23,
+    "historico": [
+      { "data": "2025-06-18 12:30", "evento": "Adicionado ao sistema" },
+      { "data": "2025-06-19 10:00", "evento": "Nível alterado para Alta" }
+    ]
+  }
+]
+[
+  {
+    "nome": "Ana Dias",
+    "profissao": "Analista",
+    "vigilancia": "Moderada",
+    "lat": -8.85,
+    "lng": 13.20
+  },
+  {
+    "nome": "João Pinto",
+    "profissao": "Professor",
+    "vigilancia": "Baixa",
+    "lat": -8.84,
+    "lng": 13.24
+  }
+]

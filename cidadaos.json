@@ -1,0 +1,100 @@
+[
+    {
+      "nome": "Joana Silva",
+      "profissao": "Médica",
+      "vigilancia": "Alta"
+    },
+    {
+      "nome": "Pedro Sousa",
+      "profissao": "Engenheiro",
+      "vigilancia": "Baixa"
+    },
+    {
+      "nome": "Marta Lopes",
+      "profissao": "Professora",
+      "vigilancia": "Moderada"
+    }
+  ]
+  [
+    {
+      "nome": "Joana Silva",
+      "profissao": "Médica",
+      "vigilancia": "Alta",
+      "lat": -17.0689,
+      "lng": 15.7525
+    },
+    {
+      "nome": "Pedro Sousa",
+      "profissao": "Engenheiro",
+      "vigilancia": "Baixa",
+      "lat": -17.0650,
+      "lng": 15.7500
+    }
+  ]
+  const cidadaos = [
+    {
+      nome: "Joana Silva",
+      profissao: "Médica",
+      vigilancia: "Alta",
+      lat: -17.0692,
+      lng: 15.7521
+    },
+    {
+      nome: "Pedro Sousa",
+      profissao: "Engenheiro",
+      vigilancia: "Baixa",
+      lat: -17.0675,
+      lng: 15.7499
+    },
+    {
+      nome: "Marta Lopes",
+      profissao: "Professora",
+      vigilancia: "Moderada",
+      lat: -17.0668,
+      lng: 15.7540
+    }
+  ];
+  [
+    {
+      "nome": "Carlos Almeida",
+      "profissao": "Analista",
+      "vigilancia": "Alta",
+      "lat": -17.0650,
+      "lng": 15.7530
+    }
+    fetch("cidadaos.json")
+  .then(res => res.json())
+  .then(data => { ... });
+  
+  ]
+  [
+    {
+      "id": 1,
+      "nome": "Carlos Silva",
+      "profissao": "Engenheiro",
+      "vigilancia": "Alta",
+      "lat": -8.83,
+      "lng": 13.23,
+      "historico": [
+        { "data": "2025-06-18 12:30", "evento": "Adicionado ao sistema" },
+        { "data": "2025-06-19 10:00", "evento": "Nível alterado para Alta" }
+      ]
+    }
+  ]
+  [
+    {
+      "nome": "Ana Dias",
+      "profissao": "Analista",
+      "vigilancia": "Moderada",
+      "lat": -8.85,
+      "lng": 13.20
+    },
+    {
+      "nome": "João Pinto",
+      "profissao": "Professor",
+      "vigilancia": "Baixa",
+      "lat": -8.84,
+      "lng": 13.24
+    }
+  ]
+    

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini ctOS - Administração</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    ul li button { margin-left: 8px; }
+    #menuTopo {
+      position: fixed;
+      top: 0;
+      right: 0;
+      background: #222;
+      color: white;
+      padding: 10px;
+      z-index: 1000;
+    }
+    #menuTopo button {
+      background: #444;
+      border: none;
+      color: white;
+      padding: 6px 12px;
+      cursor: pointer;
+      margin-left: 5px;
+    }
+  </style>
+  </head>
+  <body>
+    <div id="menuTopo">
+      <span>👤 Admin</span>
+      <button onclick="mostrarGerenciamento()">🛠️ Gerenciar Cidadãos</button>
+      <button onclick="logout()">🚪 Sair</button>
+    </div>
+  
+    <div id="painelGerencia" class="section" style="margin-top: 60px;">
+      <h2>🛠️ Administração - Gerenciar Cidadãos</h2>
+  
+      <input type="text" id="nomeNovo" placeholder="Nome">
+      <input type="text" id="profissaoNovo" placeholder="Profissão">
+      <select id="vigilanciaNova">
+        <option value="Alta">Alta</option>
+        <option value="Moderada">Moderada</option>
+        <option value="Baixa">Baixa</option>
+      </select>
+      <button onclick="adicionarCidadao()">➕ Adicionar</button>
+  
+      <h3 style="margin-top:20px;">📋 Lista de Cidadãos</h3>
+      <ul id="listaCidadaos"></ul>
+    </div>
+</body>
+</html>
